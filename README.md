@@ -1,7 +1,10 @@
 # cursor2000
-This is a system that I have wrote in Python/Opencv that if you leave the room with the lights on its gonna curse at you.(pretty interesting)
+This is a system that I have wrote in Python/Opencv that if you leave the room with the lights on its gonna curse at you.(pretty interesting huh?)
 
 ***All the project is written in python3!***
+
+This project is been tested at the link below
+https://www.youtube.com/watch?v=Z5jnWTJ20yk
 
 So I've used the Opencv's own pre-trained person detection model to see if anyone is in the room or not and I used contours in the binary threshold to figure out if the lights are on or off.
 
