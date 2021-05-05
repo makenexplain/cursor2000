@@ -29,8 +29,8 @@ then run the program:
 ```
 python3 shtV1.py
 ```
-## Version
-Python: 3.9.4
+## Versions
+Python: 3.9.4    
 Opencv: 4.5.1
 ## Extra Information
 
