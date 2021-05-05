@@ -1,30 +1,35 @@
-# cursor2000
+## cursor2000
 This is a system that I have wrote in Python/Opencv that if you leave the room with the lights on its gonna curse at you.(pretty interesting)
 
 ***All the project is written in python3!***
 
 So I've used the Opencv's own pre-trained person detection model to see if anyone is in the room or not and I used contours in the binary threshold to figure out if the lights are on or off.
 
-Dependencies
+# Dependencies
 
 First of all Opencv should be installed: 
+```
 pip install opencv-python
-
+```
 After installing Opencv install playsound package for playing mp3 files: 
+```
 pip install playsound
-
+```
 And lastly you have to install imutils package, this package is extra tools for working with videos and pictures: 
+```
 pip install imutils
-
-Usage
+```
+# Usage
 
 cd into the files where you have stored it: 
+```
 cd cursor2000
-
+```
 then run the program: 
+```
 python3 shtV1.py
-
-Extra Information
+```
+# Extra Information
 
 I've used opencv's own pre-trained person detection model and using this model has its own pros and cons.
 the pros are that its very simple to use, but it has some cons that makes the system hard to work like it glitches sometimes and for no reason it doesn't detects the person the person that is in the room and that trigers the curse function.
