@@ -22,7 +22,7 @@ cd cursor2000
 then run the program
 python3 shtV1.py
 
-Extra information
+Extra Information
 
 I've used opencv's own pre-trained person detection model and using this model has its own pros and cons.
 the pros are that its very simple to use, but it has some cons that makes the system hard to work like it glitches sometimes and for no reason it doesn't detects the person the person that is in the room and that trigers the curse function.
