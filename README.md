@@ -1,2 +1,2 @@
 # cursor2000
-if you leave the room with the lights on it will curse at you
+This is a system that I have wrote in python/opencv that if you leave the room with the lights on its gonna curse at you.(Pretty interesting)
