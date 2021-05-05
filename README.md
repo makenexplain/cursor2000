@@ -29,10 +29,13 @@ then run the program:
 ```
 python3 shtV1.py
 ```
+## Version
+Python: 3.9.4
+Opencv: 4.5.1
 ## Extra Information
 
 I've used opencv's own pre-trained person detection model and using this model has its own pros and cons.
 the pros are that its very simple to use, but it has some cons that makes the system hard to work like it glitches sometimes and for no reason it doesn't detects the person the person that is in the room and that trigers the curse function.
 And I have used the contours in the binary threshold method to figure out if the light is on or off which turned out to work fine but there is a main problem with it, when you turn the lights off cause your(almost everyones) camera is rolling shutter sometimes it will still curse at you :)
 I'm going to improve this code and maybe make a V2 version of it where I've bought some sensors to detect the entrance and exit of people.
-And as you can see I've imported the threading package but I have never used it, I'm going to upgrade the code and use the package in the next upgrades I was just to lazy to remove(and forgot).
+And as you can see I've imported the threading package but I have never used it, I'm going to upgrade the code and use the package in the next upgrades I was just to lazy to remove(and forgot). And for the glitch in the person detection I may use "YOLO V4" to detect person cause its ridiculously fast!
